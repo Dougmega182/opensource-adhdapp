@@ -1,0 +1,1 @@
+// Ollama AI integration placeholder
