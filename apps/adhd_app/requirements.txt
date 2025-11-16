@@ -1,0 +1,20 @@
+# ADHD Assistant - Python Backend Dependencies
+
+# Web Framework
+Flask==2.3.0
+flask-cors==4.0.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Encryption
+cryptography==41.0.0
+
+# Optional: AI/ML (if implementing real AI features)
+# openai==0.27.0
+# ollama==0.1.0
+# transformers==4.30.0
+
+# Development
+pytest==7.4.0
+pytest-cov==4.1.0

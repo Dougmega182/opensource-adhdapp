@@ -1,74 +1,75 @@
 
 ---
 
-### **roadmap.md (Draft)**
-
-```markdown
-# ADHD App Development Roadmap
-
-## Months 1-3: Foundation
-- Setup React Native project
-- Integrate Ollama client library
-- Basic UI: task list, timer
-- Implement AI task breakdown engine
-- Local storage layer
-- ADHD-friendly UX
-
-## Months 4-6: Core AI Features
-- Smart scheduling & pattern tracking
-- "What now?" recommendation engine
-- Voice input for brain dumps
-- Pomodoro with AI intervals
-- Beta testing with ADHD community
-
-## Months 7-9: Refinement
-- Emotional state tracking
-- Hyperfocus protection
-- Context-aware notifications
-- Performance optimization
-- Accessibility improvements
-
-## Months 10-12: Community Features
-- Plugin architecture
-- Optional social accountability
-- Export/import of tasks
-- Self-hosted multi-device sync
-- Public launch
-
-
-
----
-
-## **3. High-Level Roadmap**
+## **`roadmap.md`**
 
 ```markdown
 # ADHD Assistant Roadmap
 
-## Phase 1: MVP Core (0-3 months)
-- Create React Native app skeleton
-- AI Task Breakdown (stub with Ollama)
-- Smart Timers & Pomodoro integration
-- Brain Dump Processor (text input)
-- Local SQLite + encrypted storage
-- Workspace structure & file manifests
-- Validate skeleton and AI stubs
+This roadmap outlines the planned development stages for the ADHD Assistant app.
 
-## Phase 2: Advanced AI Features (3-6 months)
-- Pattern learning for task completion habits
-- Adaptive scheduling & "What should I do now?" engine
-- Voice input for brain dumps
-- Context-aware break reminders
+---
 
-## Phase 3: Hyperfocus & Emotional State Tracking (6-12 months)
-- Detect hyperfocus sessions and suggest breaks
-- Track mood, energy, and focus patterns
-- Suggest optimal task times
+## **Phase 1: MVP – Day One Runnable Version**
+- WebAgent
+  - Create React Native folder structure
+  - Stub AI task breakdown
+  - Stub brain dump processing
+- DevOpsAgent
+  - SQLite DB setup
+  - Encrypted storage placeholder
+  - CLI Pomodoro timer
+- ValidatorAgent
+  - Validate workspace structure and files
+- Main.py
+  - Minimal CLI to simulate ADHD productivity sessions
+- Documentation
+  - README.md
+  - roadmap.md
 
-## Phase 4: Community & Extensibility (12+ months)
-- Optional accountability and social sharing
-- Plugin architecture for:
-  - Calendar integration
-  - Habit tracking
-  - Sleep/exercise logging
-  - Medication reminders
-- Self-hosted sync for multi-device use
+---
+
+## **Phase 2: AI Enhancements**
+- Integrate Ollama or other LLM for realistic task breakdown
+- Smart prioritization AI based on task importance
+- Auto-categorization of brain dumps into projects
+- Persistence across sessions
+
+---
+
+## **Phase 3: UX/UI Enhancements**
+- React Native front-end MVP
+  - Task dashboard
+  - Brain dump page
+  - Timer visualization
+- Minimal desktop or mobile interface
+- Theme options for ADHD-friendly UI
+
+---
+
+## **Phase 4: Productivity Tools**
+- Full Pomodoro timer with customizable intervals
+- Notifications for breaks and focus sessions
+- Historical tracking of task completion
+- Export/import brain dumps
+
+---
+
+## **Phase 5: Advanced Features**
+- Integration with calendars, reminders, and task managers
+- AI-powered suggestions for optimal focus sessions
+- Gamification for ADHD productivity support
+- Multi-user sync (cloud)
+
+---
+
+## **Development Notes**
+- Maintain modularity: each agent is independent
+- Use SQLite for persistent storage
+- Keep CLI mode runnable out-of-the-box for testing
+- Document every function in `agents/` for clarity
+
+---
+
+## **Goal**
+Provide a **ready-to-run ADHD productivity assistant** that combines AI and Pomodoro workflow, enabling users to **start using it immediately**, while allowing developers to extend its AI capabilities and UI.

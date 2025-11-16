@@ -1,0 +1,65 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║          🎉 ADHD ASSISTANT - EXPO REACT NATIVE APP 🎉         ║
+║                                                               ║
+║                    READY FOR ANDROID + iOS!                   ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+✨ QUICK START (3 Commands):
+
+1. Install dependencies:
+   npm install
+
+2. Start Expo:
+   npx expo start
+
+3. Run on device:
+   • Press 'a' for Android
+   • Press 'i' for iOS (Mac only)
+   • Scan QR code with Expo Go app on your phone
+
+───────────────────────────────────────────────────────────────
+
+📱 TEST ON YOUR PHONE (Easiest!):
+
+1. Install "Expo Go" app from App Store or Play Store
+2. Run: npx expo start
+3. Scan the QR code with your phone's camera (iOS) or Expo Go app (Android)
+4. App loads instantly on your phone!
+
+───────────────────────────────────────────────────────────────
+
+🔌 CONNECT TO BACKEND (Optional):
+
+Backend runs at: http://localhost:5000/api
+
+For physical devices, edit src/utils/api.js:
+   const API_BASE_URL = 'http://YOUR_COMPUTER_IP:5000/api';
+
+Find your IP:
+   Windows: ipconfig
+   Mac/Linux: ifconfig
+
+Note: App works with mock data without backend!
+
+───────────────────────────────────────────────────────────────
+
+📚 DOCUMENTATION:
+
+• EXPO_SETUP.md - Complete Expo setup guide
+• README_EXPO.md - React Native documentation
+• ../QUICK_START.md - 3-minute quick start
+• ../README_FULL.md - Full-stack documentation
+
+───────────────────────────────────────────────────────────────
+
+🚀 READY TO GO!
+
+Run this now:
+   npm install
+   npx expo start
+
+Then press 'a' for Android or 'i' for iOS!
+
+Happy coding! 💻✨
